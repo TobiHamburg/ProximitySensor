@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     @IBAction func resetCounter(_ sender: UIButton) {
         
+        //Test
         counter.text = "0"
     }
     
