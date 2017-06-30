@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6C459181F06C12B00CDCA93"
+               BlueprintIdentifier = "F6C459361F06C41300CDCA93"
                BuildableName = "ProximitySensor.app"
                BlueprintName = "ProximitySensor"
                ReferencedContainer = "container:ProximitySensor.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F6C459181F06C12B00CDCA93"
+            BlueprintIdentifier = "F6C459361F06C41300CDCA93"
             BuildableName = "ProximitySensor.app"
             BlueprintName = "ProximitySensor"
             ReferencedContainer = "container:ProximitySensor.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F6C459181F06C12B00CDCA93"
+            BlueprintIdentifier = "F6C459361F06C41300CDCA93"
             BuildableName = "ProximitySensor.app"
             BlueprintName = "ProximitySensor"
             ReferencedContainer = "container:ProximitySensor.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F6C459181F06C12B00CDCA93"
+            BlueprintIdentifier = "F6C459361F06C41300CDCA93"
             BuildableName = "ProximitySensor.app"
             BlueprintName = "ProximitySensor"
             ReferencedContainer = "container:ProximitySensor.xcodeproj">

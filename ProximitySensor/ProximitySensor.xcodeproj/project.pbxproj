@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6C4591D1F06C12B00CDCA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4591C1F06C12B00CDCA93 /* AppDelegate.swift */; };
-		F6C4591F1F06C12B00CDCA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4591E1F06C12B00CDCA93 /* ViewController.swift */; };
-		F6C459221F06C12B00CDCA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C459201F06C12B00CDCA93 /* Main.storyboard */; };
-		F6C459241F06C12B00CDCA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C459231F06C12B00CDCA93 /* Assets.xcassets */; };
-		F6C459271F06C12B00CDCA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C459251F06C12B00CDCA93 /* LaunchScreen.storyboard */; };
+		F6C4593B1F06C41300CDCA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4593A1F06C41300CDCA93 /* AppDelegate.swift */; };
+		F6C4593D1F06C41300CDCA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4593C1F06C41300CDCA93 /* ViewController.swift */; };
+		F6C459401F06C41300CDCA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C4593E1F06C41300CDCA93 /* Main.storyboard */; };
+		F6C459421F06C41300CDCA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C459411F06C41300CDCA93 /* Assets.xcassets */; };
+		F6C459451F06C41300CDCA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C459431F06C41300CDCA93 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6C459191F06C12B00CDCA93 /* ProximitySensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximitySensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6C4591C1F06C12B00CDCA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6C4591E1F06C12B00CDCA93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F6C459211F06C12B00CDCA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F6C459231F06C12B00CDCA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F6C459261F06C12B00CDCA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F6C459281F06C12B00CDCA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C459371F06C41300CDCA93 /* ProximitySensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximitySensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C4593A1F06C41300CDCA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6C4593C1F06C41300CDCA93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6C4593F1F06C41300CDCA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6C459411F06C41300CDCA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6C459441F06C41300CDCA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6C459461F06C41300CDCA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F6C459161F06C12B00CDCA93 /* Frameworks */ = {
+		F6C459341F06C41300CDCA93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F6C459101F06C12B00CDCA93 = {
+		F6C4592E1F06C41300CDCA93 = {
 			isa = PBXGroup;
 			children = (
-				F6C4591B1F06C12B00CDCA93 /* ProximitySensor */,
-				F6C4591A1F06C12B00CDCA93 /* Products */,
+				F6C459391F06C41300CDCA93 /* ProximitySensor */,
+				F6C459381F06C41300CDCA93 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F6C4591A1F06C12B00CDCA93 /* Products */ = {
+		F6C459381F06C41300CDCA93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6C459191F06C12B00CDCA93 /* ProximitySensor.app */,
+				F6C459371F06C41300CDCA93 /* ProximitySensor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F6C4591B1F06C12B00CDCA93 /* ProximitySensor */ = {
+		F6C459391F06C41300CDCA93 /* ProximitySensor */ = {
 			isa = PBXGroup;
 			children = (
-				F6C4591C1F06C12B00CDCA93 /* AppDelegate.swift */,
-				F6C4591E1F06C12B00CDCA93 /* ViewController.swift */,
-				F6C459201F06C12B00CDCA93 /* Main.storyboard */,
-				F6C459231F06C12B00CDCA93 /* Assets.xcassets */,
-				F6C459251F06C12B00CDCA93 /* LaunchScreen.storyboard */,
-				F6C459281F06C12B00CDCA93 /* Info.plist */,
+				F6C4593A1F06C41300CDCA93 /* AppDelegate.swift */,
+				F6C4593C1F06C41300CDCA93 /* ViewController.swift */,
+				F6C4593E1F06C41300CDCA93 /* Main.storyboard */,
+				F6C459411F06C41300CDCA93 /* Assets.xcassets */,
+				F6C459431F06C41300CDCA93 /* LaunchScreen.storyboard */,
+				F6C459461F06C41300CDCA93 /* Info.plist */,
 			);
 			path = ProximitySensor;
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6C459181F06C12B00CDCA93 /* ProximitySensor */ = {
+		F6C459361F06C41300CDCA93 /* ProximitySensor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6C4592B1F06C12B00CDCA93 /* Build configuration list for PBXNativeTarget "ProximitySensor" */;
+			buildConfigurationList = F6C459491F06C41300CDCA93 /* Build configuration list for PBXNativeTarget "ProximitySensor" */;
 			buildPhases = (
-				F6C459151F06C12B00CDCA93 /* Sources */,
-				F6C459161F06C12B00CDCA93 /* Frameworks */,
-				F6C459171F06C12B00CDCA93 /* Resources */,
+				F6C459331F06C41300CDCA93 /* Sources */,
+				F6C459341F06C41300CDCA93 /* Frameworks */,
+				F6C459351F06C41300CDCA93 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,27 +81,27 @@
 			);
 			name = ProximitySensor;
 			productName = ProximitySensor;
-			productReference = F6C459191F06C12B00CDCA93 /* ProximitySensor.app */;
+			productReference = F6C459371F06C41300CDCA93 /* ProximitySensor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F6C459111F06C12B00CDCA93 /* Project object */ = {
+		F6C4592F1F06C41300CDCA93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Tobias Böttcher";
 				TargetAttributes = {
-					F6C459181F06C12B00CDCA93 = {
+					F6C459361F06C41300CDCA93 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = P5PK3MY63B;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F6C459141F06C12B00CDCA93 /* Build configuration list for PBXProject "ProximitySensor" */;
+			buildConfigurationList = F6C459321F06C41300CDCA93 /* Build configuration list for PBXProject "ProximitySensor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,54 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = F6C459101F06C12B00CDCA93;
-			productRefGroup = F6C4591A1F06C12B00CDCA93 /* Products */;
+			mainGroup = F6C4592E1F06C41300CDCA93;
+			productRefGroup = F6C459381F06C41300CDCA93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6C459181F06C12B00CDCA93 /* ProximitySensor */,
+				F6C459361F06C41300CDCA93 /* ProximitySensor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F6C459171F06C12B00CDCA93 /* Resources */ = {
+		F6C459351F06C41300CDCA93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6C459271F06C12B00CDCA93 /* LaunchScreen.storyboard in Resources */,
-				F6C459241F06C12B00CDCA93 /* Assets.xcassets in Resources */,
-				F6C459221F06C12B00CDCA93 /* Main.storyboard in Resources */,
+				F6C459451F06C41300CDCA93 /* LaunchScreen.storyboard in Resources */,
+				F6C459421F06C41300CDCA93 /* Assets.xcassets in Resources */,
+				F6C459401F06C41300CDCA93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F6C459151F06C12B00CDCA93 /* Sources */ = {
+		F6C459331F06C41300CDCA93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6C4591F1F06C12B00CDCA93 /* ViewController.swift in Sources */,
-				F6C4591D1F06C12B00CDCA93 /* AppDelegate.swift in Sources */,
+				F6C4593D1F06C41300CDCA93 /* ViewController.swift in Sources */,
+				F6C4593B1F06C41300CDCA93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F6C459201F06C12B00CDCA93 /* Main.storyboard */ = {
+		F6C4593E1F06C41300CDCA93 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F6C459211F06C12B00CDCA93 /* Base */,
+				F6C4593F1F06C41300CDCA93 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F6C459251F06C12B00CDCA93 /* LaunchScreen.storyboard */ = {
+		F6C459431F06C41300CDCA93 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F6C459261F06C12B00CDCA93 /* Base */,
+				F6C459441F06C41300CDCA93 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F6C459291F06C12B00CDCA93 /* Debug */ = {
+		F6C459471F06C41300CDCA93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		F6C4592A1F06C12B00CDCA93 /* Release */ = {
+		F6C459481F06C41300CDCA93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +257,7 @@
 			};
 			name = Release;
 		};
-		F6C4592C1F06C12B00CDCA93 /* Debug */ = {
+		F6C4594A1F06C41300CDCA93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -270,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		F6C4592D1F06C12B00CDCA93 /* Release */ = {
+		F6C4594B1F06C41300CDCA93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -286,24 +286,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6C459141F06C12B00CDCA93 /* Build configuration list for PBXProject "ProximitySensor" */ = {
+		F6C459321F06C41300CDCA93 /* Build configuration list for PBXProject "ProximitySensor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6C459291F06C12B00CDCA93 /* Debug */,
-				F6C4592A1F06C12B00CDCA93 /* Release */,
+				F6C459471F06C41300CDCA93 /* Debug */,
+				F6C459481F06C41300CDCA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6C4592B1F06C12B00CDCA93 /* Build configuration list for PBXNativeTarget "ProximitySensor" */ = {
+		F6C459491F06C41300CDCA93 /* Build configuration list for PBXNativeTarget "ProximitySensor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6C4592C1F06C12B00CDCA93 /* Debug */,
-				F6C4592D1F06C12B00CDCA93 /* Release */,
+				F6C4594A1F06C41300CDCA93 /* Debug */,
+				F6C4594B1F06C41300CDCA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F6C459111F06C12B00CDCA93 /* Project object */;
+	rootObject = F6C4592F1F06C41300CDCA93 /* Project object */;
 }
