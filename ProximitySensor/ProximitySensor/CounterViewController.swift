@@ -7,47 +7,64 @@
 //
 
 import UIKit
+import FirebaseDatabase
+import FirebaseAuth
 
-class ViewController: UIViewController {
+class CounterViewController: UIViewController {
+    
+    let ref = Database.database().reference(withPath: "users")
+    var user: MyUser!
+    var usersRef = Database.database().reference(withPath: "online")
     
     @IBOutlet weak var counter: UILabel!
     
     @IBAction func resetCounter(_ sender: UIButton) {
         
-        //Test
         counter.text = "0"
+    }
+    
+    @IBAction func startChallengeDidTouch(_ sender: UIButton) {
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view, typically from a nib.
+        print("ViewController - viewDidLoad")
         activateProximitySensor()
+        
+        Auth.auth().addStateDidChangeListener { auth, user in
+            guard let user = user else { return }
+            self.user = MyUser(authData: user)
+        }
+
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     
     func proximityChanged(notification:Notification) -> Void {
-        print("Changed to: \(UIDevice.current.proximityState)")
+        print("ViewController - Changed to: \(UIDevice.current.proximityState)")
         
         if UIDevice.current.proximityState == true  {
-            var count = Int(counter.text!)!
+            var count = 0
+            if counter != nil && counter.text != nil {
+            count = Int(counter.text!)!
+            }
             count = count + 1
             counter.text = "\(count)"
+            
+            user.count = count
+            self.ref.setValue(user.toAnyObject())
         }
     }
     
     
     func activateProximitySensor() {
+        print("ViewController - activateProximitySensor")
         let device = UIDevice.current
         device.isProximityMonitoringEnabled = true
         if device.isProximityMonitoringEnabled {
             let nc = NotificationCenter.default
             nc.addObserver(forName: NSNotification.Name.UIDeviceProximityStateDidChange, object: nil, queue: nil, using: proximityChanged)
+            print("notification observer added")
         }
     }
     
