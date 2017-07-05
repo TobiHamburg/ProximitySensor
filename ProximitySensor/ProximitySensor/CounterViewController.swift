@@ -98,7 +98,6 @@ class CounterViewController: UIViewController {
             counter.text = "\(count)"
             
             user.count = count
-            self.ref.setValue(user.toAnyObject())
             self.refChallenge.child(userName.text!).setValue([
                 "count" : count
                 ]
